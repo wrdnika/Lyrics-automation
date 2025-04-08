@@ -81,8 +81,13 @@ const LyricSyncPlayer = () => {
         </div>
 
         <div className="p-6 text-center relative">
-          <h1 className="text-3xl font-bold text-[#66FCF1] mb-4 drop-shadow-md tracking-wider">
-            Music Lyrics Players
+          <h1 class="text-4xl font-extralight text-white tracking-wide flex items-center justify-center gap-3">
+            <img
+              src="/wrdnika-white.png"
+              alt="Logo"
+              class="w-10 h-10 object-contain rounded-xl"
+            />
+            Wrdnika
           </h1>
 
           <div className="relative h-64 overflow-hidden mb-6">
@@ -119,10 +124,8 @@ const LyricSyncPlayer = () => {
                   animate={{ opacity: 1 }}
                   className="flex flex-col items-center justify-center h-full text-[#66FCF1]"
                 >
-                  <p className="text-xl mb-4">Explore the Cosmos</p>
-                  <p className="text-[#66FCF1]/70 mb-6">
-                    Press play to begin your journey
-                  </p>
+                  <p className="text-xl mb-4">SIA - Chandelier</p>
+                  <p className="text-[#66FCF1]/70 mb-6">Press to play lyrics</p>
                 </motion.div>
               )}
             </AnimatePresence>
